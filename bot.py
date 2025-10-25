@@ -3,6 +3,8 @@ from plugins.cb_data import app as Client2
 from config import *
 import pyromod
 import pyrogram.utils
+import asyncio
+asyncio.set_event_loop(asyncio.new_event_loop())
 
 pyrogram.utils.MIN_CHAT_ID = -999999999999
 pyrogram.utils.MIN_CHANNEL_ID = -100999999999999
