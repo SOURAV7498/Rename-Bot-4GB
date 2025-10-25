@@ -10,3 +10,4 @@ Flask
 gunicorn
 aiohttp
 uvloop==0.21.0
+python-3.10.13
