@@ -3,10 +3,10 @@ import os
 
 
 # Required Variables Config
-API_ID = int(os.environ.get("API_ID", ""))
-API_HASH = os.environ.get("API_HASH", "")
-BOT_TOKEN = os.environ.get("BOT_TOKEN", "")
-ADMIN = int(os.environ.get("ADMIN", ""))
+API_ID = int(os.environ.get("API_ID", "21140176"))
+API_HASH = os.environ.get("API_HASH", "b081ec8da8cf5263a6593041c1ae2a3b")
+BOT_TOKEN = os.environ.get("BOT_TOKEN", "8416344037:AAFbuPcxzUI_MSKw_C8kKNhfoo1TSRjPqlw")
+ADMIN = int(os.environ.get("ADMIN", "6222491731"))
 
 
 # Premium 4GB Renaming Client Config
@@ -14,13 +14,13 @@ STRING_SESSION = os.environ.get("STRING_SESSION", "")
 
 
 # Log & Force Channel Config
-FORCE_SUBS = os.environ.get("FORCE_SUBS", "")
-LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", ""))
+FORCE_SUBS = os.environ.get("FORCE_SUBS", "1003096722799")
+LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", "1003168773809"))
 
 
 # Mongo DB Database Config
-DATABASE_URL = os.environ.get("DATABASE_URL", "")
-DATABASE_NAME = os.environ.get("DATABASE_NAME", "madflixbotz")
+DATABASE_URL = os.environ.get("DATABASE_URL", "mongodb+srv://sbmod88_db_user:XCLxrjdGlaHTG6mz@cluster0.qndjonz.mongodb.net/?appName=Cluster0")
+DATABASE_NAME = os.environ.get("DATABASE_NAME", "rename_bot")
 
 
 # Other Variables Config
